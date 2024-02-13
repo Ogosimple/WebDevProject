@@ -1,0 +1,403 @@
+godsdelight@Dr-Ogoo-Chikaodili:~/Documents/WebDev/WebDevProject$ history
+    1  R
+    2  ls
+    3  rstudio
+    4  sudo apt install libatk-1.0
+    5  sudo apt install libatk-1.0.so.0
+    6  sudo apt-get update
+    7  sudo apt-get install libatk1.0-0
+    8  rstudio
+    9  sudo apt-get install libatk-bridge-2.0
+   10  sudo apt-get install libatk-bridge2.0-0
+   11  cd Downloads/
+   12  ls
+   13  sudo dpkg -i rstudio-2023.03.0-386-amd64.deb
+   14  rstudio
+   15  sudo apt-get install libcups
+   16  apt-get install --reinstall libcups2
+   17  sudo dpkg -S libcups.so.2
+   18  sudo apt-get install --reinstall libcups2
+   19  rstudio
+   20  sudo apt-get install libgtk-3
+   21  sudo apt install libgtk-3-0
+   22  sudo apt update
+   23  sudo head /var/lib/apt/lists/ports.ubuntu.com_ubuntu_dists_focal_InRelease
+   24  sudo timedatectl set-local-rtc 1
+   25  sudo timedatectl set-local-rtc 0
+   26  sudo apt update
+   27  date
+   28  sudo hwclock --hctosys
+   29  sudo apt update
+   30  date
+   31  sudo apt install ntp
+   32  sudo dpkg-reconfigure tzdata
+   33  sudo service ntp restart
+   34  sudo apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update
+   35  sudo apt update
+   36  rstudio
+   37  sudo dpkg -i rstudio-2023.03.0-386-amd64.deb
+   38  rstudio
+   39  sudo apt install libgbm.so.1
+   40  sudo apt-get install -y libgbm-dev
+   41  rstudio
+   42  ~/.rstudio-desktop directory
+   43  sudo apt-get install libasound2
+   44  R --version
+   45  rstudio --version
+   46  python3 --version
+   47  conda --version
+   48  miniconda
+   49  > version
+   50  R
+   51  rstudio
+   52  sudo pwd
+   53  ls -ltr
+   54  history
+   55  cd /home/godsdelight/Documents/Bioinformatics/
+   56  ls -ltr
+   57  ls /home/godsdelight/Documents/Bioinformatics/Training/
+   58  ls /home/godsdelight/Documents/Bioinformatics/Training/*.txt
+   59  head -n10 /home/godsdelight/Documents/Bioinformatics/Training/P26046.fasta.txt
+   60  less /home/godsdelight/Documents/Bioinformatics/Training/P26046.fasta.txt
+   61  grep CIIRLEPL /home/godsdelight/Documents/Bioinformatics/Training/P26046.fasta.txt
+   62  head -n10 /home/godsdelight/Documents/Bioinformatics/Training/OutputFile_LongestORF.fasta.txt
+   63  cd .
+   64  cd ..
+   65  ls
+   66  cd Bioinformatics/
+   67  chmod 777 Linux/
+   68  ls -ltr
+   69  sudo chmod 777 Linux/
+   70  ls -ltr
+   71  sudo chmod 777 Training/ WellcomeGenomeCampus/
+   72  rstudio --version
+   73  conda
+   74  info breakpoints
+   75  rstudio
+   76  cd Downloads/
+   77  ls
+   78  apt-get purge rstudio
+   79  sudo apt-get purge rstudio
+   80  rstudio --version
+   81  history
+   82  sudo dpkg -i rstudio-2023.03.0-386-amd64.deb
+   83  rstudio --version
+   84  rstudio
+   85  sudo apt update && sudo apt upgrade -y
+   86  sudo apt install zip unzip
+   87  zip --version
+   88  zip [-options] [-b path] [-t mmddyyyy] [-n suffixes] [zipfile list] [-xi list]
+   89  zip -m archive-filename.zip file1 file2
+   90  ls
+   91  cp PharmGKB_Training_Exercises.zip /home/godsdelight/Documents/Genomics/
+   92  man cp
+   93  cp -fr PharmGKB_Training_Exercises.zip /home/godsdelight/Documents/Genomics/
+   94  ls -ltr
+   95  chmod 777 PharmGKB_Training_Exercises.zip
+   96  ls -ltr
+   97  cp -fr PharmGKB_Training_Exercises.zip /home/godsdelight/Documents/Genomics/
+   98  zip -h2
+   99  unzip -l PharmGKB_Training_Exercises.zip
+  100  ls
+  101  sudo apt install atril
+  102  acroread
+  103  wget -O ~/adobe.deb ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+  104  sudo apt update
+  105  sudo apt install libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386 libgdk-pixbuf-xlib-2.0-0:i386
+  106  sudo dpkg -i ~/adobe.deb
+  107  acroread
+  108  sudo pwd
+  109  sudo apt-get update
+  110  sudo apt-get install r-base
+  111  R
+  112  wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+  113  gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+  114  head -n10 /home/godsdelight/Documents/Bioinformatics/Training/OutputFile_LongestORF.fasta.txt
+  115  ls
+  116  mv miniconda3/ /home/godsdelight/Personal/
+  117  ls
+  118  ls -ltr Personal/
+  119  R --version
+  120  samtools-1 --version
+  121  sudo apt install samtools
+  122  samtools --version
+  123  sudo pwd
+  124  sudo apt-get update
+  125  sudo apt-get upgrade -y
+  126  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+  127  sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+  128  sudo apt install -y r-base r-base-core r-recommended r-base-dev gdebi-core build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
+  129  R
+  130  wget https://rstudio.org/download/latest/stable/server/bionic/rstudio-server-latest-amd64.deb
+  131  wget https://rstudio.org/download/latest/stable/desktop/bionic/rstudio-latest-amd64.deb
+  132  sudo chmod o+r /etc/resolv.conf
+  133  wget rstudio.org/download/latest/stable/desktop/bionic/rstudio-latest-amd64.deb
+  134  sudo chattr +i /etc/resolv.conf
+  135  sudo chmod o+r /etc/resolv.conf
+  136  sudo nano /etc/resolv.conf
+  137  python3 --version
+  138  rstudio --version
+  139  history
+  140  cd Downloads/
+  141  ls -ltr
+  142  ls
+  143  R
+  144  sudo apt-get purge rstudio
+  145  sudo pwd
+  146  ls -ltr
+  147  ls -ltr /home/godsdelight/miniconda3/
+  148  ls -ltr /home/godsdelight/miniconda3/pkgs/
+  149  mamba
+  150  ls -ltr
+  151  ls -ltr /home/godsdelight/Pictures/
+  152  conda
+  153  R
+  154  samtools
+  155  sudo pwd
+  156  ls -ltr
+  157  sudo pwd
+  158  ls -ltr
+  159  sudo pwd
+  160  ls -lts
+  161  head adobe.deb
+  162  sudo pwd
+  163  git version
+  164  sudo pwd
+  165  ls -ltr
+  166  rstudio
+  167  bcftools
+  168  ls
+  169  conda
+  170  samtools
+  171  rstudio
+  172  pickard
+  173  bwa
+  174  sickle
+  175  sudo apt install bcftools
+  176  bcftools
+  177  sickle
+  178  samtools
+  179  sudo apt install bwa picard
+  180  bwa
+  181  picard
+  182  sudo --fix-miss
+  183  sudo apt --fix-missing
+  184  sudo apt-get update
+  185  sudo apt install bwa
+  186  bwa --version
+  187  bwa
+  188  sudo apt install samtools
+  189  samtools
+  190  sudo apt install libcrypto.so.1.0.0
+  191  sudo apt install picard
+  192  picard
+  193  cd /
+  194  ls
+  195  ls *usr
+  196  cd bin
+  197  ls
+  198  cd picard
+  199  nano picard
+  200  chmod 777 picard
+  201  sudo chmod 777 picard
+  202  nano picard
+  203  Trimmomatic
+  204  java
+  205  sudo apt install openjdk-19-jre-headless
+  206  cd
+  207  sudo apt-get install trimmomatic
+  208  mkdir trimming
+  209  cd trimming/
+  210  wget https://github.com/usadellab/Trimmomatic/files/5854859/Trimmomatic-0.39.zip
+  211  ls -ltr
+  212  bcftools
+  213  bwa
+  214  picard
+  215  samtools
+  216  sudo apt update
+  217  samtools
+  218  ls
+  219  adobe
+  220  vcftools
+  221  sniffles -h
+  222  igv -h
+  223  fastqc -h
+  224  java --version
+  225  nano history.command.txt
+  226  ls
+  227  igv -h
+  228  sudo apt install igv
+  229  igv
+  230  sudo apt install igv
+  231  igv
+  232  ls
+  233  trimmomatic -h
+  234  https://github.com/usadellab/Trimmomatic/files/5854859/Trimmomatic-0.39.ziphttps://github.com/usadellab/Trimmomatic/files/5854859/Trimmomatic-0.39.zip
+  235  history
+  236  iqtree
+  237  iqtree2
+  238  sudo apt install iqtree
+  239  iqtree
+  240  ls
+  241  sudo apt install deb
+  242  sudo apt install build-essential
+  243  python --version
+  244  python3 --version
+  245  set -x
+  246  set -eu
+  247  export MINICONDA="$HOME/miniconda"
+  248  export PATH="/home/manager/miniconda/bin:$PATH"
+  249  sudo apt-get update && sudo apt-get install -y git && sudo apt-get install -y wget && sudo apt-get clean
+  250  conda
+  251  conda config --set always_yes yes --set changeps1 no
+  252  conda update -y conda
+  253  ls
+  254  ls -faltr
+  255  sudo ls -ltra
+  256  mkdir gitvideo
+  257  ls
+  258  git
+  259  cd gitvideo/
+  260  touch index.html app.css
+  261  ls
+  262  git init
+  263  git add index.html
+  264  git add .
+  265  git commit -m 'add html and css file'
+  266  git log
+  267  git config --global "Ogosimpl
+  268  git config --global user.name "Ezeador Chika"
+  269  git config --global user.email "ogosimple42@gmail.com"
+  270  git config --global init.default branch main
+  271  git help config
+  272  git status
+  273  git commit -m 'add html and css file'
+  274  git status
+  275  git add .
+  276  git log
+  277  git log --oneline
+  278  git add 'KCC Logo.png'
+  279  touch KCC_Logo.png new.txt
+  280  ls
+  281  git mv "KCC_Logo.png" "PrimaryLogo.png"
+  282  git add 'KCC_Logo.png'
+  283  git status
+  284  git mv "KCC_Logo.png" "PrimaryLogo.png"
+  285  git commit -m "changnnnged the file name of an image"
+  286  git status
+  287  git log
+  288  git log --oneline
+  289  git commit -m "changed file name to PrimaryLogo.png" --amend
+  290  git log --oneline
+  291  git log -p
+  292  git rebase -i --root
+  293  history
+  294  wget https://git-scm.com/download/win
+  295  wget https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe
+  296  ls -ltr
+  297  wget https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe
+  298  cd Downloads/
+  299  wget https://github.com/Figma-Linux/figma-linux/releases/download/v0.10.0/figma-linux_0.10.0_linux_amd64.deb
+  300  ls
+  301  cd /home/godsdelight/Documents/WebDev/css.training/project.css/codingAssgmnt
+  302  git init
+  303  ls
+  304  cd
+  305  ls
+  306  cd Documents/
+  307  ls
+  308  cd WebDev/
+  309  ls
+  310  mkdir html.training
+  311  ls
+  312  cd css.training/
+  313  mkdir project
+  314  mkdir project.css
+  315  ls
+  316  rm project
+  317  rm -R project
+  318  ls
+  319  cd project.css/
+  320  mkdir codingAssgmnt
+  321  ls
+  322  cd codingAssgmnt/
+  323  code
+  324  ls -fa
+  325  code
+  326  nano VS_Code.gettingStarted
+  327  ls
+  328  cd Documents/
+  329  ls
+  330  cd
+  331  code
+  332  git-hub --version
+  333  sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.3.6-linux1/GitHubDesktop-linux-3.3.6-linux1.deb
+  334  sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.3.6-linux3/GitHubDesktop-linux-3.3.6-linux3.deb
+  335  sudo wget github.com/shiftkey/desktop/releases/download/release-3.3.6-linux3/GitHubDesktop-linux-3.3.6-linux3.deb
+  336  sudo chmod o+r /etc/resolv.conf
+  337  sudo nano /etc/resolv.conf
+  338  sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.3.6-linux3/GitHubDesktop-linux-3.3.6-linux3.deb
+  339  sudo nano /etc/resolv.conf
+  340  fg
+  341  wget https://github.com/shiftkey/desktop/releases/download/release-3.3.6-linux3/GitHubDesktop-linux-3.3.6-linux1.deb
+  342  wget https://github.com/shiftkey/desktop/releases/download/release-3.1.7-linux1/GitHubDesktop-linux-3.1.7-linux1.deb
+  343  sudo nano /etc/resolv.conf
+  344  ls
+  345  cd Downloads/
+  346  ls
+  347  sudo dpkg -i GitHubDesktop-linux-3.1.7-linux1.deb
+  348  sudo apt update
+  349  sudo apt upgrade
+  350  apt --fixed-broken all
+  351  rstudio
+  352  code
+  353  git
+  354  ls
+  355  ls -F
+  356  github-desktop --version
+  357  ls
+  358  git
+  359  sudo -ltsfa
+  360  sudo -ltr
+  361  sudo -ls
+  362  ls -ltrfa
+  363  code
+  364  git
+  365  git status
+  366  git --version
+  367  git config --list
+  368  pwd
+  369  ls
+  370  cd Documents/WebDev/
+  371  ls
+  372  git clone https://github.com/Ogosimple/WebDevProject.git
+  373  ls
+  374  cd WebDevProject/
+  375  LS
+  376  ls
+  377  cat README.md
+  378  touch hello.py
+  379  ls
+  380  getedit hello.py
+  381  nano hello.py
+  382  gedit hello.py
+  383  sudo apt install gedit
+  384  apt-get update
+  385  sudo apt-get update
+  386  sudo apt upgrade
+  387  gedit hello.py
+  388  sudo apt install gedit
+  389  gedit hello.py
+  390  gedit --version
+  391  nano hello.py
+  392  ls
+  393  git status
+  394  git add hello.py
+  395  git status
+  396  git commit -m "My first python code"
+  397  git status
+  398  git push origin main
+  399  nano token
+  400  git remote set-url origin https://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@github.com/Ogosimple/WebDevProject
+  401  git push origin main
+  402  history
